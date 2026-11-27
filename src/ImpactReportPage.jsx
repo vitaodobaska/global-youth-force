@@ -75,7 +75,7 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
       title: "Brazil — Dunamis Con' 2026 & Connections",
       tag: 'São Paulo • 20,000+ Young Leaders',
       accent: '#5BA4E5',
-      globeImg: '/impact-report/brazil-globe.png',
+      globeImg: './impact-report/brazil-globe.png',
       paragraphs: [
         "Keith, Ana, Mariana, and Vitor gathered in São Paulo to attend Dunamis Con '26, an event that brought together over 20,000 young leaders. It was a great moment for the Youth Force team!",
         'Following the conference, the team also met with local leaders who are making a massive impact across the country.',
@@ -83,23 +83,23 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
       highlightQuote: 'God is on the move in Brazil.',
       photos: [
         {
-          src: '/impact-report/brazil-dunamis-team.jpg',
+          src: './impact-report/brazil-dunamis-team.jpg',
           caption: "Youth Force team at Dunamis Con '26 in São Paulo",
         },
         {
-          src: '/impact-report/brazil-dunamis-stage.jpg',
+          src: './impact-report/brazil-dunamis-stage.jpg',
           caption: "Main stage worship and teaching for 20,000+ young leaders",
         },
         {
-          src: '/impact-report/brazil-dunamis-con26.jpg',
+          src: './impact-report/brazil-dunamis-con26.jpg',
           caption: "Dunamis Con '26 conference arena",
         },
         {
-          src: '/impact-report/brazil-dinner.jpg',
+          src: './impact-report/brazil-dinner.jpg',
           caption: 'Fellowship and meals with local Brazilian leaders',
         },
         {
-          src: '/impact-report/brazil-connections.jpg',
+          src: './impact-report/brazil-connections.jpg',
           caption: 'Building new Kingdom connections across São Paulo',
         },
       ],
@@ -110,7 +110,7 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
       title: 'Egypt – Cade and team awakening the Next Generation!',
       tag: '4 Years Overseas • Leadership School & Sports Ministry',
       accent: '#239CEC',
-      globeImg: '/impact-report/egypt-globe.png',
+      globeImg: './impact-report/egypt-globe.png',
       subtitle: 'Report from Cade:',
       greeting: 'Hello Family and Friends,',
       paragraphs: [
@@ -121,15 +121,15 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
       donateCadeUrl: 'https://www.paypal.com/donate/?hosted_button_id=Y2PMKT4AH8AJY',
       photos: [
         {
-          src: '/impact-report/egypt-team-field.jpg',
+          src: './impact-report/egypt-team-field.jpg',
           caption: 'Academy and league football team mentored in Egypt',
         },
         {
-          src: '/impact-report/egypt-bus.jpg',
+          src: './impact-report/egypt-bus.jpg',
           caption: 'Traveling together with youth players and coaches',
         },
         {
-          src: '/impact-report/egypt-cade-mariam.png',
+          src: './impact-report/egypt-cade-mariam.png',
           caption: 'Cade and Mariam preparing for a new season together',
         },
       ],
@@ -140,7 +140,7 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
       title: 'Cuba — Impact and community is growing!',
       tag: 'October Visit • Local Church & Vital HOME Needs',
       accent: '#0D6EFD',
-      globeImg: '/impact-report/cuba-globe.png',
+      globeImg: './impact-report/cuba-globe.png',
       paragraphs: [
         'In Cuba, we have been supporting our local team in various ways.',
         'In October, some of us had the opportunity to visit, and it was incredible to see the local church impacting the community, even amid the challenging conditions the country is currently facing.',
@@ -148,19 +148,19 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
       ],
       photos: [
         {
-          src: '/impact-report/cuba-visit.jpg',
+          src: './impact-report/cuba-visit.jpg',
           caption: 'Supporting and encouraging our local ministry partners in Cuba',
         },
         {
-          src: '/impact-report/cuba-worship.png',
+          src: './impact-report/cuba-worship.png',
           caption: 'Local youth leading worship in the church',
         },
         {
-          src: '/impact-report/cuba-youth.png',
+          src: './impact-report/cuba-youth.png',
           caption: 'Young believers gathering in worship and prayer',
         },
         {
-          src: '/impact-report/cuba-community.jpg',
+          src: './impact-report/cuba-community.jpg',
           caption: 'October trip fellowship with the local church team',
         },
       ],
@@ -171,26 +171,26 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
       title: 'Kenya — Lamgambo Music Pulse',
       tag: 'Led by Peter Chege • Disciple-Making & Public Worship',
       accent: '#174EA6',
-      globeImg: '/impact-report/kenya-globe.png',
+      globeImg: './impact-report/kenya-globe.png',
       paragraphs: [
         "In Kenya, Peter Chege continues to lead a transformative ministry. By focusing on disciple-making and empowering young leaders, Peter's team has been able to reach deep into local communities through worship in public locations.",
         'His dedication is raising up a new generation of believers equipped to serve their neighborhoods and lead with faith and resilience.',
       ],
       photos: [
         {
-          src: '/impact-report/kenya-family.png',
+          src: './impact-report/kenya-family.png',
           caption: 'Peter Chege and family representing One Voice / Lamgambo Music Pulse',
         },
         {
-          src: '/impact-report/kenya-church.png',
+          src: './impact-report/kenya-church.png',
           caption: 'Worship gathering and community leadership empowerment',
         },
         {
-          src: '/impact-report/kenya-street-worship.png',
+          src: './impact-report/kenya-street-worship.png',
           caption: 'Reaching local communities through worship in public locations',
         },
         {
-          src: '/impact-report/kenya-outreach.png',
+          src: './impact-report/kenya-outreach.png',
           caption: 'Personal discipleship and neighborhood outreach in Kenya',
         },
       ],
@@ -256,7 +256,7 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
               aria-label="Global Youth Force Home"
             >
               <img
-                src="/logos/gyf-orange-dark.png"
+                src="./logos/gyf-orange-dark.png"
                 alt="Global Youth Force"
                 className="h-10 md:h-11 w-auto object-contain"
               />
@@ -289,7 +289,7 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
       <section className="relative overflow-hidden border-b border-white/10">
         <div
           className="absolute inset-0 opacity-20 bg-cover bg-center"
-          style={{ backgroundImage: "url('/impact-report/hero-team.png')" }}
+          style={{ backgroundImage: "url('./impact-report/hero-team.png')" }}
         />
         <div
           className="absolute inset-0"
@@ -430,7 +430,7 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
                 <div className="rounded-2xl bg-white/5 border border-white/10 p-3 text-center">
                   <div className="aspect-[4/5] rounded-xl overflow-hidden bg-[#071526] mb-3">
                     <img
-                      src="/impact-report/keith-cote.png"
+                      src="./impact-report/keith-cote.png"
                       alt="Keith Cote"
                       className="w-full h-full object-cover object-top"
                     />
@@ -444,7 +444,7 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
                 <div className="rounded-2xl bg-white/5 border border-white/10 p-3 text-center">
                   <div className="aspect-[4/5] rounded-xl overflow-hidden bg-[#071526] mb-3">
                     <img
-                      src="/impact-report/bruce-mcevoy.png"
+                      src="./impact-report/bruce-mcevoy.png"
                       alt="Bruce McEvoy"
                       className="w-full h-full object-cover object-top"
                     />
@@ -736,7 +736,7 @@ export default function ImpactReportPage({ onBackToHome, onOpenPartnerModal }) {
       <footer className="border-t border-white/10 px-6 md:px-12 py-12 mt-8 text-center text-xs text-white/40 font-mono">
         <div className="flex flex-col items-center gap-4">
           <img
-            src="/logos/gyf-blue-dark.png"
+            src="./logos/gyf-blue-dark.png"
             alt="Global Youth Force"
             className="h-11 w-auto object-contain opacity-90"
           />

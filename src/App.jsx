@@ -769,7 +769,7 @@ function Navbar({ onOpenPartnerModal, onNavigate }) {
           aria-label="Global Youth Force Home"
         >
           <img
-            src="/logos/gyf-orange-dark.png"
+            src="./logos/gyf-orange-dark.png"
             alt="Global Youth Force"
             className="h-10 sm:h-12 md:h-14 w-auto object-contain"
           />
@@ -942,7 +942,7 @@ function Hero({ onOpenPartnerModal }) {
         playsInline
         className="absolute inset-0 w-full h-full object-cover scale-105"
       >
-        <source src="/gyf-background-video.mp4" type="video/mp4" />
+        <source src="./gyf-background-video.mp4" type="video/mp4" />
       </video>
 
       {/* Cinematic Ambient Overlay — Infused with GYF Deep Blue */}
@@ -1090,7 +1090,7 @@ function OurMission({ onNavigate }) {
       <div
         className="absolute inset-0 opacity-35 mix-blend-luminosity"
         style={{
-          backgroundImage: `url('/about-bg.jpg')`,
+          backgroundImage: `url('./about-bg.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
@@ -1411,8 +1411,8 @@ function Partners() {
     {
       id: 'gls-nextgen',
       name: 'Global Leadership Summit - Next Gen',
-      logo: '/partners/gls-nextgen-logo-new.png',
-      fallbackLogo: '/partners/gln-next-gen-logo.png',
+      logo: './partners/gls-nextgen-logo-new.png',
+      fallbackLogo: './partners/gln-next-gen-logo.png',
       description:
         'A transformational leadership experience designed to awaken students’ leadership, faith, and life journey. These leadership resources will activate young leaders to be a Force for Good in their world!',
       url: 'https://nextgen.glni.org/',
@@ -1420,7 +1420,7 @@ function Partners() {
     {
       id: 'wea',
       name: 'World Evangelical Alliance',
-      logo: '/partners/partner-wea-sm.png',
+      logo: './partners/partner-wea-sm.png',
       fallbackLogo: 'https://globalyouthforce.org/images/2018/11/08/partner-wea-sm.png',
       description:
         'World Evangelical Alliance is a global ministry working with local churches around the world to join in common concern to live and proclaim the Good News of Jesus in their communities. Seeking holiness, justice and renewal at every level of society - individual, family, community and culture, God is glorified and the nations of the earth are forever transformed.',
@@ -1429,7 +1429,7 @@ function Partners() {
     {
       id: 'fca',
       name: 'Fellowship of Christian Athletes',
-      logo: '/partners/fca-logo.webp',
+      logo: './partners/fca-logo.webp',
       fallbackLogo: 'https://globalyouthforce.org/images/2026/04/06/fca-logo-horizontal-color.webp',
       description:
         'Since 1954, the Fellowship of Christian Athletes has been challenging coaches and athletes on the professional, college, high school, junior high and youth levels to use the powerful medium of athletics to impact the world for Jesus Christ. FCA focuses on serving local communities by equipping, empowering and encouraging people to make a difference for Christ through the local FCA huddles.',
@@ -1438,7 +1438,7 @@ function Partners() {
     {
       id: 'aea',
       name: 'Asian Evangelicals Alliance',
-      logo: '/partners/aea-logo.webp',
+      logo: './partners/aea-logo.webp',
       fallbackLogo: 'https://globalyouthforce.org/images/2026/04/06/aea-logo.webp',
       description:
         'AEA promotes and nurtures unity, collaborations and cooperation among ministry organizations, church networks and primarily the National Evangelical Alliances within Asia and with those outside Asia for the purpose of building, strengthening and expanding the Kingdom of God in Asia and beyond.',
@@ -1447,7 +1447,7 @@ function Partners() {
     {
       id: 'icete',
       name: 'ICETE',
-      logo: '/partners/icete-logo.webp',
+      logo: './partners/icete-logo.webp',
       fallbackLogo: 'https://globalyouthforce.org/images/2026/04/06/icete-logo.webp',
       description:
         'ICETE advances quality and collaboration in global theological education to strengthen and accompany the church in its mission. ICETE is a global community, sponsored by seven regional associations of theological schools, to enable international interaction and collaboration among all those concerned for the enhancement of evangelical theological education worldwide.',
@@ -1620,7 +1620,7 @@ function Footer({ onOpenPartnerModal }) {
           {/* Brand */}
           <div className="md:col-span-2">
             <img
-              src="/logos/gyf-blue-dark.png"
+              src="./logos/gyf-blue-dark.png"
               alt="Global Youth Force"
               className="h-12 sm:h-14 w-auto object-contain mb-4"
             />
